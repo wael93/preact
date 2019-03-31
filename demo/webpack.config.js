@@ -13,6 +13,7 @@ module.exports = {
 	},
 	resolve: {
 		alias: {
+			["preact/compat"]: path.join(__dirname, '..', 'compat'),
 			["preact/debug"]: path.join(__dirname, '..', 'debug'),
 			["preact/hooks"]: path.join(__dirname, '..', 'hooks', 'src'),
 			preact: preact,
